@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <figure itemscope itemtype="https://schema.org/WebSite">
+  <figure itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
     <img itemprop="images" rc="https://placehold.it/1600x900" alt="">
     <figcaption>
       <h2 itemprop="name">Dino 'R' Us</h2>
@@ -17,6 +17,16 @@
       <aside itemprop="keywords">Web, Responsive, CSS, Mobile, Dinosaurs</aside>
     </figcaption>
   </figure>
+
+  <footer id="data-author" itemprop="author" itemscoep itemtype="https://schema.org/Person">
+    <p>© <span itemprop="name">Thomas J Bradley</span></p>
+    <a itemprop="email" href="mailto:hey@thomasjbradley.ca">hey@thomasjbradley.ca</a>
+    <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <span itemprop="addressLocality">Ottawa</span>
+      <span itemprop="addressRegion">Ontario</span>
+      <span itemprop="addressCountry">Canada</span>
+    </p>
+  </footer>
 
 </body>
 </html>
